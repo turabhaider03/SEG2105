@@ -1,3 +1,18 @@
+// This file contains material supporting section 2.9 of the textbook:
+// "Object Oriented Software Engineering" and is issued under the open-source
+// license found at www.lloseng.com 
+
+/**
+ * This class contains instances of coordinates in either polar and
+ * cartesian format.  This class tests the setter and getter methods 
+ * for each implementation of storing points.
+ * 
+ * By creating 10 million instances and testing the execution time of
+ * the constructor as well as getter methods for each storage type
+ * 
+ * @author Turab Haider
+ * @author Nikhil Peri
+ */
 import java.util.Random;
 
 public class PointPerformanceTest {
