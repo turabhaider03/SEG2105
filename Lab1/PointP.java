@@ -6,7 +6,7 @@
  *
  * @author Turab Haider
  * @author Nikhil Peri
- * @
+ * @ Version 1
  */
 public class PointP {
 	//Instance variables ************************************************
@@ -25,9 +25,6 @@ public class PointP {
 	  
 	  //Constructors ******************************************************
 
-	  /**
-	   * Constructs a coordinate object.
-	   */
 	  public PointP(double Rho, double Theta)
 	  {
 	    
@@ -40,7 +37,7 @@ public class PointP {
 	  //Instance methods **************************************************
 	  
 	  /**
-	   * Converts to Cartesian coordinates and returns X
+	   * Converts to Cartesian coordinates and returns X-value
 	   */
 	 
 	  public double getX()
@@ -50,7 +47,7 @@ public class PointP {
 	  }
 	  
 	  /**
-	   * Converts to Cartesian coordinates and returns Y
+	   * Converts to Cartesian coordinates and returns Y-value
 	   */
 	  
 	  public double getY()
@@ -80,13 +77,6 @@ public class PointP {
 	      return Theta;
 	    
 	  }
-	  
-	
-		
-	  /**
-	   * Converts Polar coordinates to Cartesian coordinates.
-	   */
-
 	  
 
 	  /**
